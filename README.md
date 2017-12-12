@@ -3,7 +3,7 @@
 </p>
 
 # Spectrum
-A small iOS app to determine colours from camera which aids the colour blind. Feel free to use this program in any way fit.
+A small iOS app to determine colours from camera which aids the colour blind.
 
 # Screenshots
 
