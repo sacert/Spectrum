@@ -224,10 +224,10 @@ class ViewController: UIViewController, FrameExtractorDelegate {
             
             // make sure it is no longer hidden - initially it is
             screenPressedDisplay.isHidden = false
-            
-            getColor = imageView.image?.getPixelColor(pos: CGPoint(x: pos_x, y: pos_y), imageView: imageView)
                         
-            // set the color retrieved to the middle cirle and insert its name and hex below it
+            getColor = imageView.image?.getPixelColorAtPoint(point:CGPoint(x: pos_x, y: pos_y), sourceView: imageView)
+                        
+            // set the color retrieved to the middle circle and insert its name and hex below it
             setColorDisplay(rgba: getColor!)
             let cc = closestColor(rgba: getColor!)
             colorNameLabel.text = cc?.iClosestHex_name
