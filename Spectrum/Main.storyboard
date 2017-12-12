@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Helvetica.ttc">
+            <string>Helvetica</string>
+            <string>Helvetica-Light</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Spectrum" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleAspectFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Amazing_Sunset_View_on_Sea_HD_Wallpapers-1" translatesAutoresizingMaskIntoConstraints="NO" id="LKL-Lr-zk7">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fb7-Sg-LN9">
+                                <rect key="frame" x="120" y="408" width="80" height="80"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="0.80038006760000002" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="JFi-by-7gQ"/>
+                                    <constraint firstAttribute="height" constant="80" id="TFm-Bk-eLl"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ziF-TL-PYp">
+                                <rect key="frame" x="16" y="508" width="288" height="0.0"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="15"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rnj-EA-xho">
+                                <rect key="frame" x="16" y="500" width="288" height="0.0"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <size key="shadowOffset" width="0.0" height="0.0"/>
+                            </label>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ECo-Jf-jZY">
+                                <rect key="frame" x="100" y="121" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleAspectFill" misplaced="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aS0-oN-xk7">
+                                <rect key="frame" x="84" y="527" width="36" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="36" id="L4E-6h-yab"/>
+                                    <constraint firstAttribute="height" constant="36" id="xcz-Xl-Iue"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="4" minY="4" maxX="4" maxY="4"/>
+                                <state key="normal" image="freeze1"/>
+                                <connections>
+                                    <action selector="freezeFrame:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zwC-IZ-AdE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0wc-zX-jeF">
+                                <rect key="frame" x="232" y="424" width="36" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="36" id="9Ar-Va-cyR"/>
+                                    <constraint firstAttribute="height" constant="36" id="bFX-H7-HgE"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="4" minY="2" maxX="4" maxY="2"/>
+                                <state key="normal" image="swap">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="flipCamera:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Vh-kJ-eSz"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ziF-TL-PYp" firstAttribute="top" secondItem="Rnj-EA-xho" secondAttribute="bottom" constant="8" id="2BD-Be-D3a"/>
+                            <constraint firstItem="fb7-Sg-LN9" firstAttribute="leading" secondItem="aS0-oN-xk7" secondAttribute="trailing" constant="32" id="5Ju-Dq-6nZ"/>
+                            <constraint firstItem="Rnj-EA-xho" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="5V2-9J-sdg"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="fb7-Sg-LN9" secondAttribute="bottom" constant="80" id="BPh-0F-uvB"/>
+                            <constraint firstItem="0wc-zX-jeF" firstAttribute="leading" secondItem="fb7-Sg-LN9" secondAttribute="trailing" constant="32" id="Llq-2G-pVw"/>
+                            <constraint firstItem="Rnj-EA-xho" firstAttribute="top" secondItem="fb7-Sg-LN9" secondAttribute="bottom" constant="12" id="M5u-fK-b2D"/>
+                            <constraint firstItem="ziF-TL-PYp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TXI-TV-0gH"/>
+                            <constraint firstItem="Rnj-EA-xho" firstAttribute="top" secondItem="0wc-zX-jeF" secondAttribute="bottom" constant="40" id="U1F-Cv-PB3"/>
+                            <constraint firstAttribute="bottom" secondItem="LKL-Lr-zk7" secondAttribute="bottom" id="VXN-tn-OWj"/>
+                            <constraint firstItem="LKL-Lr-zk7" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="XAg-8H-KJG"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Rnj-EA-xho" secondAttribute="trailing" id="ZGY-IX-07T"/>
+                            <constraint firstItem="fb7-Sg-LN9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dOz-kN-Phw"/>
+                            <constraint firstItem="LKL-Lr-zk7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="fKM-z9-Drj"/>
+                            <constraint firstItem="ziF-TL-PYp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="lnv-nx-MFU"/>
+                            <constraint firstAttribute="trailing" secondItem="LKL-Lr-zk7" secondAttribute="trailing" id="mcg-qz-fu2"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ziF-TL-PYp" secondAttribute="trailing" id="snS-dF-4yJ"/>
+                            <constraint firstItem="Rnj-EA-xho" firstAttribute="top" secondItem="aS0-oN-xk7" secondAttribute="bottom" constant="40" id="x2i-Ng-9eS"/>
+                            <constraint firstItem="Rnj-EA-xho" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xPV-rS-UAy"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="colorDisplay" destination="fb7-Sg-LN9" id="NDp-OP-9t7"/>
+                        <outlet property="colorHexLabel" destination="ziF-TL-PYp" id="op1-ne-EKw"/>
+                        <outlet property="colorNameLabel" destination="Rnj-EA-xho" id="x2D-dF-zLt"/>
+                        <outlet property="flipCameraButton" destination="0wc-zX-jeF" id="0Qj-YO-Sbg"/>
+                        <outlet property="freezeButton" destination="aS0-oN-xk7" id="Jct-Ux-iu3"/>
+                        <outlet property="imageView" destination="LKL-Lr-zk7" id="T9v-14-b75"/>
+                        <outlet property="screenPressedDisplay" destination="ECo-Jf-jZY" id="Hga-ua-IsG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="65" y="143"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Amazing_Sunset_View_on_Sea_HD_Wallpapers-1" width="1920" height="1080"/>
+        <image name="freeze1" width="32" height="32"/>
+        <image name="swap" width="32" height="32"/>
+    </resources>
+</document>
