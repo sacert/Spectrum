@@ -14,7 +14,7 @@ A small iOS app to determine colours from camera which aids the colour blind.
 
 # Getting Start
 ``` sh
-$ git clone https://github.com/wongzigii/Colo.git
+$ git clone https://github.com/sacert/Spectrum.git
 $ cd Spectrum
 $ open -a xcode Spectrum.xcodeproj
 ```
